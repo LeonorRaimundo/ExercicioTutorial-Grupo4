@@ -1,0 +1,115 @@
+body{
+background-image: linear-gradient(to right, #228B22, #ffc61a, #e60000);
+font-family: helvetica;
+margin:20px;
+}
+
+
+.header{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding:25px;
+}
+
+
+.navbar{
+overflow: auto;
+background-color: green;
+}
+
+
+.item{
+font-size: 18px;
+list-style-type: none;
+float:left;
+padding-bottom:15px;
+}
+
+
+.item a{
+	text-decoration: none;
+	color:white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.item a:hover{
+color: #e60000;
+}
+
+.container{
+    position: static;
+	margin-left:800px;
+	margin-bottom: 300px;
+	margin-top: 100px;
+	padding:10px;
+	width: 400px;
+	height: auto;
+    display: block;
+	background-color: yellow;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	height:auto;
+	padding-bottom: 50px;
+}
+
+
+
+.block1{
+   position: fixed;
+   text-align: center;
+   float: left;
+   width: 15%;
+   height: 2%;
+   margin-top: 100px;
+   padding: 20px;
+   background-color: yellow;
+}
+
+
+.block2{
+   position: absolute;
+   text-align: center;
+   float: left;
+   width: 15%;
+   height: 2%;
+   margin-top: 250px;
+   padding: 20px;
+   background-color: yellow;
+}
+
+
+
+
+.block3{
+   position: relative;
+   text-align: center;
+   float: left;
+   width: 15%;
+   height: 2%;
+   margin-top: 400px;
+   padding: 20px;
+   background-color: yellow;
+}
+
+
+
+
+#footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+
